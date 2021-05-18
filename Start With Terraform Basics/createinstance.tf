@@ -12,7 +12,7 @@ provider "aws" {
     region      = "us-east-1"
 }
 
-resource "aws-instance" "MyFirstInstance" {
+resource "aws_instance" "MyFirstInstance" {
     ami             = "ami-0ee02acd56a52998e"
     instance-type   = "t2.micro"  
 }
